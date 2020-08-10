@@ -1,0 +1,119 @@
+@import url("fonts.css");
+
+/* .gen-pass-button-container {
+  text-align: center;
+  margin-top: 10%;
+}
+
+
+.gen-pass-button {
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  border-style: solid;
+  border-color: black;
+  font-size: 72px;
+  background-color: black;
+  color: red;
+  text-align: center;
+  font-family: HalvaMedium;
+}
+
+.gen-pass-button:hover {
+  background-color: black;
+  color: green;
+}
+
+.password-container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#password {
+  font-size: 48px;
+  font-family: HalvaMedium;
+  font-weight: bolder;
+} */
+body {
+  font-family: SFProDisplayRegular;
+  text-align: center;
+}
+
+h3 {
+  font-family: SFProDisplayBold;
+  font-size: 20px;
+  color: #707070;
+  margin-top: 100px;
+}
+
+h1 {
+  font-family: SFProDisplayBold;
+  font-size: 50px;
+  color: black;
+  margin: 50px auto;
+}
+
+.container {
+  max-width: 800px;
+  height: 90px;
+  border: 1px solid black;
+  text-align: left;
+  margin: 0px auto;
+}
+
+#password {
+  font-family: SFProDisplayRegular;
+  font-size: 35px;
+  color: #707070;
+  line-height: 90px;
+  margin-left: 30px;
+  display: inline;
+}
+
+.button {
+  /* display: inline; */
+
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.copyPassword {
+  background: url("../assets/content_copy-24px.svg");
+  background-repeat: no-repeat;
+  background-size: 48px;
+  background-position: center;
+  width: 90px;
+  height: 90px;
+  float: right;
+  border: none;
+}
+
+.generatePassword {
+  background: url("../assets/repeat-24px.svg");
+  background-repeat: no-repeat;
+  background-size: 48px;
+  background-position: center;
+  width: 90px;
+  height: 90px;
+  float: right;
+  border: none;
+}
+
+#description {
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+span {
+  font-family: SFProDisplayBold;
+}
+
+.highlight {
+  background-color: #00ffff;
+}
+
+#copy {
+  position: absolute;
+  left: -9999px;
+}

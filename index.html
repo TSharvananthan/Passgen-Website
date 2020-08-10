@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Password Generator </title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+  <h3>PASSWORD GENERATION TOOL</h3>
+  <h1>Generate a secure password.</h1>
+  <div class="container">
+    <p id="password" class="password">Generate Password...</p>
+    <button class="generatePassword" onclick="generatePassword();"></button>
+    <button class="copyPassword" onclick="copyToClipboard();"></button>
+  </div>
+  <div id="description">
+    <p>It would take <br><span id="description-time">[Generate A Password To Get An Estimated Time]</span><br>to crack
+      this password.</p>
+  </div>
+
+  <script type="text/javascript" src="js/index.js"></script>
+
+  <textarea id="copy"></textarea>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+@font-face {
+  font-family: HalvaRegular;
+  src: url("../assets/fonts/HalvaRegular.otf");
+}
+
+@font-face {
+  font-family: HalvaMedium;
+  src: url("../assets/fonts/HalvaMedium.otf");
+}
+
+@font-face {
+  font-family: SFProDisplayBold;
+  src: url("../assets/fonts/SF-Pro-Display-Bold-copy.otf")
+}
+
+@font-face {
+  font-family: SFProDisplayRegular;
+  src: url("../assets/fonts/SF-Pro-Display-Regular-copy.otf")
+}
