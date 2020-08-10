@@ -1,8 +1,25 @@
 @import url("fonts.css");
 
-.gen-pass-button-container {
+html * {
+  font-family: HalvaMedium;
+}
+
+.main-container {
   text-align: center;
   margin-top: 10%;
+}
+
+.max_chars-container input {
+  width: 2%;
+}
+
+.diffculty-list li {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.gen-pass-button-container {
+  text-align: center;
 }
 
 
@@ -11,10 +28,9 @@
   padding: 20px 20px 20px 20px;
   border-style: solid;
   border-color: black;
-  font-size: 72px;
+  font-size: 48px;
   background-color: black;
   color: red;
-  text-align: center;
   font-family: HalvaMedium;
 }
 

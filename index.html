@@ -9,12 +9,32 @@
 
   </head>
   <body>
-    <div class="gen-pass-button-container">
-      <button class="gen-pass-button" onclick="generatePassword()"> Generate Password </button>
-    </div>
+    <div class="main-container">
+      <div class="parameters">
+        <div class="max_chars-container">
+          <label for="max_chars">Maximum Number Of Characters: <input type="number" name="max_chars" min="8" max="20"></label>
+        </div>
 
-    <div class="password-container">
-      <p id="password"> </p>
+        <br />
+        <br />
+
+        <div class="diffculty-container">
+          <p>Password Complexity:</p>
+          <ul class="diffculty-list">
+            <li><input type="radio" id="diffculty-1" name="diffculty" value="1"><label for="diffculty-1">Simple</label></li>
+            <li><input type="radio" id="diffculty-2" name="diffculty" value="2"><label for="diffculty-2">Difficult</label></li>
+            <li><input type="radio" id="diffculty-3" name="diffculty" value="3"><label for="diffculty-3">Complex</label></li>
+          </ul>
+        </div>
+
+        <div class="gen-pass-button-container">
+          <button class="gen-pass-button" onclick="generatePassword()"> Generate Password </button>
+        </div>
+      </div>
+
+      <div class="password-container">
+        <p id="password"> </p>
+      </div>
     </div>
     <script type="text/javascript" src="js/index.js"></script>
   </body>
