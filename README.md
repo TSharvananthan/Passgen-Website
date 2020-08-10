@@ -1,2 +1,0 @@
-# PassGen
-Simple password generator
